@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff8f78df-2eed-4752-b952-5af4a97d3cc7" name="Changes" comment="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida.">
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groundtruth_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lidar_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_import_lidar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrakoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrakoView.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kfjcEG5ZYhF2s4AxlfjC3tuJtX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.DrakoView (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DrakoView.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gerar_diagrama.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lidar_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gedeon/PycharmProjects/DragonView&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;promo.javascript&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gedeon\PycharmProjects\DragonView" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DrakoView (1)">
+    <configuration name="DrakoView (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DragonView" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DrakoView.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DrakoView" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DragonView" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Gedeon\PycharmProjects\DragonView\DrakoView.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DragonView" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gerar_diagrama" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DragonView" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gerar_diagrama.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lidar_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DragonView" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lidar_loader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DrakoView (1)" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.gerar_diagrama" />
+        <item itemvalue="Python.lidar_loader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff8f78df-2eed-4752-b952-5af4a97d3cc7" name="Changes" comment="" />
+      <created>1723681603182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723681603182</updated>
+    </task>
+    <task id="LOCAL-00001" summary="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida.">
+      <option name="closed" value="true" />
+      <created>1723690936909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723690936909</updated>
+    </task>
+    <task id="LOCAL-00002" summary="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida.">
+      <option name="closed" value="true" />
+      <created>1723690957738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723690957738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida." />
+    <option name="LAST_COMMIT_MESSAGE" value="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida." />
+  </component>
+</project>

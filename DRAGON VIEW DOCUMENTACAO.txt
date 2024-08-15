@@ -1,0 +1,99 @@
+# Documentação do Sistema de Visualização de Dragões
+
+## Resumo do Sistema
+
+O sistema de Visualização de Dragões foi desenvolvido para permitir que usuários busquem informações sobre diferentes dragões com base no seu nome. Ele apresenta uma interface gráfica amigável, onde o usuário pode inserir o nome do dragão desejado e visualizar detalhes como descrição, idade, peso, montador e a casa a qual pertence. O sistema está preparado para futuras atualizações e ajustes conforme necessário, garantindo uma experiência ainda melhor para os usuários.
+
+## Instruções para Digitação de Dados
+
+Ao utilizar o sistema, o usuário deverá inserir dados conforme os seguintes critérios:
+
+1. **Campo de Busca**:
+   - **Nome do Dragão**: O nome deve ser digitado exatamente como está cadastrado. O sistema não aceita variações. Por exemplo, se um dragão se chama "Drogon", digitar "Drogon" (com letras maiúsculas e minúsculas corretas) é o único jeito de encontrá-lo.
+
+## Dragões Cadastrados
+
+Aqui estão os dragões disponíveis no sistema, juntamente com suas informações:
+
+### 1. Asa Prata
+- **Imagem URL**: `imagens/Asaprata.jpg`
+- **Descrição**: Dragão Asa Prata lendário.
+- **Idade**: 200 anos
+- **Peso**: 1000 kg
+- **Montador**: Daenerys Targaryen
+- **Casa**: Casa Targaryen
+
+---
+
+### 2. Caraxes
+- **Imagem URL**: `imagens/Caraxes.jpg`
+- **Descrição**: Dragão Caraxes majestoso.
+- **Idade**: 150 anos
+- **Peso**: 850 kg
+- **Montador**: Daemon Targaryen
+- **Casa**: Casa Targaryen
+
+---
+
+### 3. Syrax
+- **Imagem URL**: `imagens/Syrax.jpg`
+- **Descrição**: Dragão Syrax lendário.
+- **Idade**: 120 anos
+- **Peso**: 800 kg
+- **Montador**: Rhaenyra Targaryen
+- **Casa**: Casa Targaryen
+
+---
+
+### 4. Vhagar
+- **Imagem URL**: `imagens/Vhagar.jpg`
+- **Descrição**: Dragão Vhagar majestoso.
+- **Idade**: 250 anos
+- **Peso**: 1100 kg
+- **Montador**: Aemond Targaryen
+- **Casa**: Casa Targaryen
+
+---
+
+### 5. Drogon
+- **Imagem URL**: `imagens/Drogon.jpg`
+- **Descrição**: Drogon, o Sombrio.
+- **Idade**: N/A
+- **Peso**: 1000 kg
+- **Montador**: Daenerys Targaryen
+- **Casa**: Casa Targaryen
+
+---
+
+### 6. Meleys
+- **Imagem URL**: `imagens/Meleys.jpg`
+- **Descrição**: Dragão Meleys, a Sanguinária.
+- **Idade**: 60 anos
+- **Peso**: 2500 kg
+- **Montador**: A rainha Rhaenys Targaryen
+- **Casa**: Casa Targaryen
+
+---
+
+### 7. Seasmoke
+- **Imagem URL**: `imagens/Seasmoke.jpg`
+- **Descrição**: O Dragão da Tempestade.
+- **Idade**: 35 anos
+- **Peso**: 2000 kg
+- **Montador**: Laenor Velaryon
+- **Casa**: Casa Velaryon
+
+---
+
+### 8. Vermithor
+- **Imagem URL**: `imagens/Vermithor.jpg`
+- **Descrição**: A Fúria de Bronze.
+- **Idade**: 250 anos
+- **Peso**: 3000 kg
+- **Montador**: Hugh Hammer
+- **Casa**: Casa Targaryen
+
+---
+
+## Considerações Finais
+O sistema implementado poderá receber ajustes futuros, dependendo das necessidades de usabilidade e funcionalidades adicionais. Feedbacks e sugestões sempre são bem-vindos para aprimorar a experiência do usuário! Se precisar de mais esclarecimentos/comentarios ou quiser adicionar novos dragões ao sistema, não hesite em entrar em contato! 
