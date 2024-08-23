@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff8f78df-2eed-4752-b952-5af4a97d3cc7" name="Changes" comment="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida.">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/groundtruth_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lidar_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_import_lidar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrakoView.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrakoView.py" afterDir="false" />
-    </list>
+    <list default="true" id="ff8f78df-2eed-4752-b952-5af4a97d3cc7" name="Changes" comment="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723690957738</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="O projeto &quot;Visualizador de Imagens de Dragões de Game of Thrones e House of the Dragon&quot; é uma aplicação interativa que visa apresentar informações e imagens de dragões das famosas séries. A estrutura do projeto abrange as seguintes componentes essenciais:&#10;&#10;1. **Classe Dragão**: Representa um dragão individual, armazenando seu nome, URL da imagem e descrição.&#10;&#10;2. **Classe Coleção de Dragões**: Gerencia uma lista de objetos da classe Dragão, permitindo adicionar novos dragões e buscar dragões específicos pelo nome.&#10;&#10;3. **Interface Gráfica (Menu Principal)**: Desenvolvida com Tkinter, exibe uma interface amigável onde os usuários podem digitar o nome de um dragão. Após a busca, as informações do dragão, incluindo sua imagem e descrição, são apresentadas.&#10;&#10;4. **Exceções**: A classe de exceção personalizada `DragaoNaoEncontrado` é usada para tratar erros relacionados à busca por dragões que não existem na coleção.&#10;&#10;5. **Integração com APIs**: O projeto pode se conectar a uma API externa que fornece dados e imagens de dragões, permitindo ampliar e atualizar continuamente a coleção de dragões disponíveis na aplicação.&#10;&#10;O objetivo do projeto é proporcionar uma experiência visual e informativa aos fãs das séries, permitindo que explorem diferentes dragões de forma interativa e divertida.">
+      <option name="closed" value="true" />
+      <created>1724381264186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724381264186</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
